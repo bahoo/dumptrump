@@ -4,7 +4,7 @@ if(window.top == window){
 
     if(/facebook\.com/i.test(location.href)){
 
-        parent = '*[data-pnref="story"] > div > div, *[data-referrer^="feed_stream"] > div > div, *[id^="stream_pagelet"]';
+        parent = '*[data-pnref="story"] > div > div, *[data-referrer^="feed_stream"] > div, *[id^="stream_pagelet"] > div > div';
         elem = '.userContentWrapper '
     }
 

@@ -1,6 +1,6 @@
 {
     "name": "Dump Trump",
-    "version": "0.1",
+    "version": "0.2",
     "description": "I'm all for good political discourse, but let's elevate the conversation.",
     "content_scripts": [{
         "matches": ["*://*/*"],
