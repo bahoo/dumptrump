@@ -1,0 +1,14 @@
+{
+    "name": "Dump Trump",
+    "version": "0.1",
+    "description": "I'm all for good political discourse, but let's elevate the conversation.",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["jquery.js", "dumptrump.js"]
+    }],
+    "icons": {
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "manifest_version": 2
+}
